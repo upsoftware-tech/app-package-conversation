@@ -1,0 +1,25 @@
+{
+    "name": "uposftware/conversation",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Upsoftware\\Conversation\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.2"
+    },
+    "authors": [
+        {
+            "name": "upSoftware.tech",
+            "email": "info@upsoftware.tech"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Upsoftware\\Conversation\\Providers\\ConversationServiceProvider"
+            ]
+        }
+    }
+}
